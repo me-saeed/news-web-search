@@ -1,0 +1,45 @@
+/* UserSettings.css */
+
+.user-settings {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.user-settings h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-settings-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.user-setting {
+  text-align: left;
+}
+
+.user-setting label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-setting select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-settings button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
